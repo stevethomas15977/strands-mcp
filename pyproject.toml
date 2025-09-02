@@ -1,0 +1,11 @@
+[project]
+name = "strands-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "magentic-ui>=0.1.2",
+    "mcp[cli]>=1.13.1",
+    "strands-agents>=1.6.0",
+]
